@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  color-scheme: light;
+  --bg: #f6f7fb;
+  --bg-2: #eef2ff;
+  --surface: #ffffff;
+  --surface-muted: #f8fafc;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --primary: #0f766e;
+  --primary-strong: #115e59;
+  --accent: #f59e0b;
+  --border: #e2e8f0;
+  --shadow-sm: 0 8px 24px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 20px 60px rgba(15, 23, 42, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Sora', 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top left, #fff7ed 0%, #f6f7fb 40%, #eef2ff 100%);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(14, 116, 144, 0.12), transparent 60%),
+    radial-gradient(800px 400px at 10% 20%, rgba(245, 158, 11, 0.12), transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.ant-typography {
+  font-family: 'Space Grotesk', 'Sora', sans-serif;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: transparent !important;
+}
+
+.app-sidebar {
+  position: relative;
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(248, 250, 252, 0.92)
+  ) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow-sm);
+}
+
+.app-header {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.75) !important;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-content {
+  background: transparent;
+}
+
+/* Surface Cards */
+.glass {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow-sm);
+  border-radius: 16px;
+}
+
+.stat-card {
+  border-radius: 18px !important;
+}
+
+.stat-icon {
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(15, 118, 110, 0.12), rgba(245, 158, 11, 0.12));
+  border: 1px solid rgba(15, 118, 110, 0.16);
+}
+
+/* AntD overrides */
+.ant-layout {
+  background: transparent !important;
+}
+
+.ant-menu {
+  border-inline-end: none !important;
+}
+
+.ant-table {
+  background: transparent !important;
+}
+
+.ant-table-thead > tr > th {
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.ant-table-row:hover {
+  background: #f1f5f9 !important;
+}
+
+/* Utility classes used in the app */
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-2 {
+  gap: 8px;
+}
+.gap-3 {
+  gap: 12px;
+}
+
+.p-2 {
+  padding: 8px;
+}
+.p-4 {
+  padding: 16px;
+}
+.p-6 {
+  padding: 24px;
+}
+.p-8 {
+  padding: 32px;
+}
+.pb-6 {
+  padding-bottom: 24px;
+}
+.px-2 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.px-8 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.m-4 {
+  margin: 16px;
+}
+.mr-0 {
+  margin-right: 0;
+}
+.mr-2 {
+  margin-right: 8px;
+}
+.mr-3 {
+  margin-right: 12px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-lg {
+  border-radius: 12px;
+}
+.rounded-xl {
+  border-radius: 16px;
+}
+.rounded-2xl {
+  border-radius: 20px;
+}
+
+.h-16 {
+  height: 64px;
+}
+.h-2 {
+  height: 8px;
+}
+.h-3 {
+  height: 12px;
+}
+.h-7 {
+  height: 28px;
+}
+.h-10 {
+  height: 40px;
+}
+.h-12 {
+  height: 48px;
+}
+.w-2 {
+  width: 8px;
+}
+.w-3 {
+  width: 12px;
+}
+.w-7 {
+  width: 28px;
+}
+.w-10 {
+  width: 40px;
+}
+.w-12 {
+  width: 48px;
+}
+.w-full {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-xs {
+  font-size: 12px;
+}
+.text-sm {
+  font-size: 14px;
+}
+.text-base {
+  font-size: 16px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.tracking-wider {
+  letter-spacing: 0.08em;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-mono {
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+.bg-blue-600 {
+  background: #2563eb;
+}
+.bg-white\/5 {
+  background: rgba(255, 255, 255, 0.05);
+}
+.hover\:bg-white\/5:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.text-blue-400 {
+  color: #60a5fa;
+}
+.text-blue-500 {
+  color: #3b82f6;
+}
+.text-emerald-400 {
+  color: #34d399;
+}
+.text-emerald-500 {
+  color: #10b981;
+}
+.text-emerald-600 {
+  color: #059669;
+}
+.text-orange-500 {
+  color: #f97316;
+}
+.text-purple-500 {
+  color: #8b5cf6;
+}
+.text-red-500 {
+  color: #ef4444;
+}
+.text-slate-400 {
+  color: #94a3b8;
+}
+.text-slate-500 {
+  color: #64748b;
+}
+.text-white {
+  color: #ffffff;
+}
+
+.border-b {
+  border-bottom: 1px solid var(--border);
+}
+.border-white\/10 {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.border-white\/20 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.border-yellow-400 {
+  border-color: #facc15;
+}
+.border-2 {
+  border-width: 2px;
+  border-style: solid;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.absolute {
+  position: absolute;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.hidden {
+  display: none;
+}
+.shadow-lg {
+  box-shadow: var(--shadow-lg);
+}
+.ring-2 {
+  box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.6);
+}
+.ring-yellow-400\/30 {
+  box-shadow: 0 0 0 4px rgba(250, 204, 21, 0.3);
+}
+
+.last\:border-0:last-child {
+  border-bottom: 0;
+}
+.last\:pb-0:last-child {
+  padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.06);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.18);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 23, 42, 0.26);
+}
