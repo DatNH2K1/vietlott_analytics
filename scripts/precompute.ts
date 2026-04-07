@@ -11,7 +11,8 @@ import type {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, '..');
-const DATA_DIR = path.join(PROJECT_ROOT, 'public', 'data');
+const RAW_DATA_DIR = path.join(PROJECT_ROOT, 'data');
+const OUTPUT_DATA_DIR = path.join(PROJECT_ROOT, 'public', 'data');
 
 /**
  * Precomputed data structure
@@ -145,13 +146,17 @@ async function precompute() {
   const start = Date.now();
   const summary: DataOverviewStat[] = [];
 
-  if (!fs.existsSync(DATA_DIR)) {
-    console.error(`❌ Data directory not found: ${DATA_DIR}`);
+  if (!fs.existsSync(RAW_DATA_DIR)) {
+    console.error(`❌ Raw data directory not found: ${RAW_DATA_DIR}`);
     process.exit(1);
   }
 
+  if (!fs.existsSync(OUTPUT_DATA_DIR)) {
+    fs.mkdirSync(OUTPUT_DATA_DIR, { recursive: true });
+  }
+
   for (const product of PRODUCTS) {
-    const filePath = path.join(DATA_DIR, product.fileName);
+    const filePath = path.join(RAW_DATA_DIR, product.fileName);
     if (!fs.existsSync(filePath)) {
       console.warn(`⚠️ File not found: ${filePath}`);
       continue;
@@ -199,7 +204,7 @@ async function precompute() {
       totalRecords: allRecords.length,
     };
 
-    const outputPath = path.join(DATA_DIR, `${product.id}.precomputed.json`);
+    const outputPath = path.join(OUTPUT_DATA_DIR, `${product.id}.precomputed.json`);
     fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
     console.log(
       `✅ Saved precomputed data for ${product.id} to ${path.basename(outputPath)} (${(Buffer.byteLength(JSON.stringify(output)) / 1024).toFixed(2)} KB)`,
@@ -207,7 +212,7 @@ async function precompute() {
   }
 
   // Save summary.precomputed.json
-  const summaryPath = path.join(DATA_DIR, 'summary.precomputed.json');
+  const summaryPath = path.join(OUTPUT_DATA_DIR, 'summary.precomputed.json');
   fs.writeFileSync(summaryPath, JSON.stringify(summary, null, 2));
   console.log(
     `📊 Generated summary for ${summary.length} products to ${path.basename(summaryPath)}`,

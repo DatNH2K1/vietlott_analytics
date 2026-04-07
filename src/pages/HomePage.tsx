@@ -42,7 +42,7 @@ export const HomePage: React.FC = () => {
           <Col xs={24} sm={8}>
             <StatItem
               title="Sản phẩm hoạt động"
-              value="7"
+              value="5"
               icon={<Activity className="text-emerald-500" size={24} />}
               loading={loading}
             />

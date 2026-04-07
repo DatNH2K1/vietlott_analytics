@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron: '0 1 * * *' # Daily at 01:00 UTC (8:00 AM VN)
   workflow_dispatch:
 
 permissions:
@@ -17,11 +19,29 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Install and Build 🔧
-        run: |
-          npm install
-          npm run precompute
-          npm run build
+      - name: Setup Node 🔧
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies 📦
+        run: npm install
+
+      - name: Run Crawler 🕷️
+        run: npm run crawl
+
+      - name: Run Precompute 📊
+        run: npm run precompute
+
+      - name: Commit and Push changes 🚀
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: update lottery results [skip ci]"
+          file_pattern: "public/data/*.jsonl public/data/*.json"
+
+      - name: Build 🏗️
+        run: npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

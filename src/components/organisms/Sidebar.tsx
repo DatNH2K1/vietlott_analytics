@@ -1,11 +1,11 @@
 import React from 'react';
 import { Layout, Menu, Typography } from 'antd';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { BarChartOutlined, DashboardOutlined } from '@ant-design/icons';
+import { DashboardOutlined } from '@ant-design/icons';
 import { PRODUCTS } from '../../types/lottery';
 
 const { Sider } = Layout;
-const { Title, Text } = Typography;
+const { Title } = Typography;
 
 export const Sidebar: React.FC = () => {
   const navigate = useNavigate();
@@ -38,9 +38,9 @@ export const Sidebar: React.FC = () => {
       theme="light"
     >
       <div className="p-6 flex items-center gap-3">
-        <Title level={4} style={{ margin: 0, color: '#0f172a' }}>
-          <BarChartOutlined className="text-emerald-600 mr-2" />
-          Vietlott Analytics
+        <img src="/logo.png" alt="Logo" className="w-10 h-10 rounded-xl shadow-lg shadow-emerald-500/20" />
+        <Title level={4} style={{ margin: 0, color: '#0f172a', letterSpacing: '-0.02em' }}>
+          Vietlott<span className="text-emerald-600 block text-xs font-semibold uppercase tracking-wider">Analytics</span>
         </Title>
       </div>
       <Menu
@@ -55,11 +55,6 @@ export const Sidebar: React.FC = () => {
           }
         }}
       />
-      <div className="p-6 absolute bottom-0 w-full text-center">
-        <Text type="secondary" style={{ fontSize: '11px' }}>
-          v2.0.0 • Vietlott Insights
-        </Text>
-      </div>
     </Sider>
   );
 };
