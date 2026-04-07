@@ -1,0 +1,749 @@
+{
+  "generatedAt": "2026-04-07T16:07:41.955Z",
+  "productId": "power_535",
+  "overview": {
+    "productId": "power_535",
+    "name": "Power 5/35",
+    "totalDraws": 250,
+    "startDate": "2025-06-29",
+    "endDate": "2026-03-30",
+    "totalRecords": 500
+  },
+  "records": [
+    {
+      "date": "2026-03-30",
+      "id": "00549",
+      "result": [
+        2,
+        3,
+        22,
+        24,
+        34,
+        8
+      ],
+      "process_time": "2026-03-31T00:01:29.750130"
+    },
+    {
+      "date": "2026-03-30",
+      "id": "00550",
+      "result": [
+        9,
+        17,
+        18,
+        24,
+        27,
+        8
+      ],
+      "process_time": "2026-03-31T00:01:29.741678"
+    }
+  ],
+  "freqAll": [
+    {
+      "number": 1,
+      "count": 121,
+      "percentage": 4.03
+    },
+    {
+      "number": 2,
+      "count": 110,
+      "percentage": 3.67
+    },
+    {
+      "number": 3,
+      "count": 122,
+      "percentage": 4.07
+    },
+    {
+      "number": 4,
+      "count": 93,
+      "percentage": 3.1
+    },
+    {
+      "number": 5,
+      "count": 99,
+      "percentage": 3.3
+    },
+    {
+      "number": 6,
+      "count": 97,
+      "percentage": 3.23
+    },
+    {
+      "number": 7,
+      "count": 123,
+      "percentage": 4.1
+    },
+    {
+      "number": 8,
+      "count": 107,
+      "percentage": 3.57
+    },
+    {
+      "number": 9,
+      "count": 110,
+      "percentage": 3.67
+    },
+    {
+      "number": 10,
+      "count": 121,
+      "percentage": 4.03
+    },
+    {
+      "number": 11,
+      "count": 128,
+      "percentage": 4.27
+    },
+    {
+      "number": 12,
+      "count": 105,
+      "percentage": 3.5
+    },
+    {
+      "number": 13,
+      "count": 72,
+      "percentage": 2.4
+    },
+    {
+      "number": 14,
+      "count": 89,
+      "percentage": 2.97
+    },
+    {
+      "number": 15,
+      "count": 62,
+      "percentage": 2.07
+    },
+    {
+      "number": 16,
+      "count": 62,
+      "percentage": 2.07
+    },
+    {
+      "number": 17,
+      "count": 62,
+      "percentage": 2.07
+    },
+    {
+      "number": 18,
+      "count": 65,
+      "percentage": 2.17
+    },
+    {
+      "number": 19,
+      "count": 73,
+      "percentage": 2.43
+    },
+    {
+      "number": 20,
+      "count": 77,
+      "percentage": 2.57
+    },
+    {
+      "number": 21,
+      "count": 61,
+      "percentage": 2.03
+    },
+    {
+      "number": 22,
+      "count": 73,
+      "percentage": 2.43
+    },
+    {
+      "number": 23,
+      "count": 78,
+      "percentage": 2.6
+    },
+    {
+      "number": 24,
+      "count": 68,
+      "percentage": 2.27
+    },
+    {
+      "number": 25,
+      "count": 77,
+      "percentage": 2.57
+    },
+    {
+      "number": 26,
+      "count": 75,
+      "percentage": 2.5
+    },
+    {
+      "number": 27,
+      "count": 72,
+      "percentage": 2.4
+    },
+    {
+      "number": 28,
+      "count": 80,
+      "percentage": 2.67
+    },
+    {
+      "number": 29,
+      "count": 76,
+      "percentage": 2.53
+    },
+    {
+      "number": 30,
+      "count": 88,
+      "percentage": 2.93
+    },
+    {
+      "number": 31,
+      "count": 61,
+      "percentage": 2.03
+    },
+    {
+      "number": 32,
+      "count": 71,
+      "percentage": 2.37
+    },
+    {
+      "number": 33,
+      "count": 71,
+      "percentage": 2.37
+    },
+    {
+      "number": 34,
+      "count": 82,
+      "percentage": 2.73
+    },
+    {
+      "number": 35,
+      "count": 69,
+      "percentage": 2.3
+    }
+  ],
+  "freq30": [
+    {
+      "number": 1,
+      "count": 8,
+      "percentage": 2.9
+    },
+    {
+      "number": 2,
+      "count": 13,
+      "percentage": 4.71
+    },
+    {
+      "number": 3,
+      "count": 15,
+      "percentage": 5.43
+    },
+    {
+      "number": 4,
+      "count": 6,
+      "percentage": 2.17
+    },
+    {
+      "number": 5,
+      "count": 9,
+      "percentage": 3.26
+    },
+    {
+      "number": 6,
+      "count": 13,
+      "percentage": 4.71
+    },
+    {
+      "number": 7,
+      "count": 7,
+      "percentage": 2.54
+    },
+    {
+      "number": 8,
+      "count": 13,
+      "percentage": 4.71
+    },
+    {
+      "number": 9,
+      "count": 9,
+      "percentage": 3.26
+    },
+    {
+      "number": 10,
+      "count": 9,
+      "percentage": 3.26
+    },
+    {
+      "number": 11,
+      "count": 12,
+      "percentage": 4.35
+    },
+    {
+      "number": 12,
+      "count": 6,
+      "percentage": 2.17
+    },
+    {
+      "number": 13,
+      "count": 10,
+      "percentage": 3.62
+    },
+    {
+      "number": 14,
+      "count": 10,
+      "percentage": 3.62
+    },
+    {
+      "number": 15,
+      "count": 4,
+      "percentage": 1.45
+    },
+    {
+      "number": 16,
+      "count": 5,
+      "percentage": 1.81
+    },
+    {
+      "number": 17,
+      "count": 7,
+      "percentage": 2.54
+    },
+    {
+      "number": 18,
+      "count": 5,
+      "percentage": 1.81
+    },
+    {
+      "number": 19,
+      "count": 8,
+      "percentage": 2.9
+    },
+    {
+      "number": 20,
+      "count": 6,
+      "percentage": 2.17
+    },
+    {
+      "number": 21,
+      "count": 7,
+      "percentage": 2.54
+    },
+    {
+      "number": 22,
+      "count": 8,
+      "percentage": 2.9
+    },
+    {
+      "number": 23,
+      "count": 5,
+      "percentage": 1.81
+    },
+    {
+      "number": 24,
+      "count": 6,
+      "percentage": 2.17
+    },
+    {
+      "number": 25,
+      "count": 5,
+      "percentage": 1.81
+    },
+    {
+      "number": 26,
+      "count": 11,
+      "percentage": 3.99
+    },
+    {
+      "number": 27,
+      "count": 8,
+      "percentage": 2.9
+    },
+    {
+      "number": 28,
+      "count": 6,
+      "percentage": 2.17
+    },
+    {
+      "number": 29,
+      "count": 11,
+      "percentage": 3.99
+    },
+    {
+      "number": 30,
+      "count": 9,
+      "percentage": 3.26
+    },
+    {
+      "number": 31,
+      "count": 4,
+      "percentage": 1.45
+    },
+    {
+      "number": 32,
+      "count": 8,
+      "percentage": 2.9
+    },
+    {
+      "number": 33,
+      "count": 4,
+      "percentage": 1.45
+    },
+    {
+      "number": 34,
+      "count": 4,
+      "percentage": 1.45
+    },
+    {
+      "number": 35,
+      "count": 5,
+      "percentage": 1.81
+    }
+  ],
+  "freq90": [
+    {
+      "number": 1,
+      "count": 37,
+      "percentage": 3.76
+    },
+    {
+      "number": 2,
+      "count": 35,
+      "percentage": 3.56
+    },
+    {
+      "number": 3,
+      "count": 45,
+      "percentage": 4.57
+    },
+    {
+      "number": 4,
+      "count": 34,
+      "percentage": 3.46
+    },
+    {
+      "number": 5,
+      "count": 33,
+      "percentage": 3.35
+    },
+    {
+      "number": 6,
+      "count": 34,
+      "percentage": 3.46
+    },
+    {
+      "number": 7,
+      "count": 34,
+      "percentage": 3.46
+    },
+    {
+      "number": 8,
+      "count": 34,
+      "percentage": 3.46
+    },
+    {
+      "number": 9,
+      "count": 43,
+      "percentage": 4.37
+    },
+    {
+      "number": 10,
+      "count": 42,
+      "percentage": 4.27
+    },
+    {
+      "number": 11,
+      "count": 35,
+      "percentage": 3.56
+    },
+    {
+      "number": 12,
+      "count": 30,
+      "percentage": 3.05
+    },
+    {
+      "number": 13,
+      "count": 28,
+      "percentage": 2.85
+    },
+    {
+      "number": 14,
+      "count": 36,
+      "percentage": 3.66
+    },
+    {
+      "number": 15,
+      "count": 25,
+      "percentage": 2.54
+    },
+    {
+      "number": 16,
+      "count": 22,
+      "percentage": 2.24
+    },
+    {
+      "number": 17,
+      "count": 22,
+      "percentage": 2.24
+    },
+    {
+      "number": 18,
+      "count": 23,
+      "percentage": 2.34
+    },
+    {
+      "number": 19,
+      "count": 30,
+      "percentage": 3.05
+    },
+    {
+      "number": 20,
+      "count": 18,
+      "percentage": 1.83
+    },
+    {
+      "number": 21,
+      "count": 21,
+      "percentage": 2.13
+    },
+    {
+      "number": 22,
+      "count": 26,
+      "percentage": 2.64
+    },
+    {
+      "number": 23,
+      "count": 25,
+      "percentage": 2.54
+    },
+    {
+      "number": 24,
+      "count": 20,
+      "percentage": 2.03
+    },
+    {
+      "number": 25,
+      "count": 20,
+      "percentage": 2.03
+    },
+    {
+      "number": 26,
+      "count": 28,
+      "percentage": 2.85
+    },
+    {
+      "number": 27,
+      "count": 26,
+      "percentage": 2.64
+    },
+    {
+      "number": 28,
+      "count": 21,
+      "percentage": 2.13
+    },
+    {
+      "number": 29,
+      "count": 33,
+      "percentage": 3.35
+    },
+    {
+      "number": 30,
+      "count": 24,
+      "percentage": 2.44
+    },
+    {
+      "number": 31,
+      "count": 20,
+      "percentage": 2.03
+    },
+    {
+      "number": 32,
+      "count": 27,
+      "percentage": 2.74
+    },
+    {
+      "number": 33,
+      "count": 16,
+      "percentage": 1.63
+    },
+    {
+      "number": 34,
+      "count": 14,
+      "percentage": 1.42
+    },
+    {
+      "number": 35,
+      "count": 23,
+      "percentage": 2.34
+    }
+  ],
+  "daysSinceData": [
+    {
+      "number": 35,
+      "lastDate": "2026-03-19",
+      "daysSince": 11
+    },
+    {
+      "number": 20,
+      "lastDate": "2026-03-20",
+      "daysSince": 10
+    },
+    {
+      "number": 5,
+      "lastDate": "2026-03-24",
+      "daysSince": 6
+    },
+    {
+      "number": 4,
+      "lastDate": "2026-03-25",
+      "daysSince": 5
+    },
+    {
+      "number": 15,
+      "lastDate": "2026-03-26",
+      "daysSince": 4
+    },
+    {
+      "number": 33,
+      "lastDate": "2026-03-26",
+      "daysSince": 4
+    },
+    {
+      "number": 25,
+      "lastDate": "2026-03-27",
+      "daysSince": 3
+    },
+    {
+      "number": 30,
+      "lastDate": "2026-03-27",
+      "daysSince": 3
+    },
+    {
+      "number": 31,
+      "lastDate": "2026-03-27",
+      "daysSince": 3
+    },
+    {
+      "number": 32,
+      "lastDate": "2026-03-27",
+      "daysSince": 3
+    },
+    {
+      "number": 6,
+      "lastDate": "2026-03-28",
+      "daysSince": 2
+    },
+    {
+      "number": 10,
+      "lastDate": "2026-03-28",
+      "daysSince": 2
+    },
+    {
+      "number": 26,
+      "lastDate": "2026-03-28",
+      "daysSince": 2
+    },
+    {
+      "number": 1,
+      "lastDate": "2026-03-28",
+      "daysSince": 2
+    },
+    {
+      "number": 14,
+      "lastDate": "2026-03-28",
+      "daysSince": 2
+    },
+    {
+      "number": 16,
+      "lastDate": "2026-03-28",
+      "daysSince": 2
+    },
+    {
+      "number": 28,
+      "lastDate": "2026-03-28",
+      "daysSince": 2
+    },
+    {
+      "number": 7,
+      "lastDate": "2026-03-29",
+      "daysSince": 1
+    },
+    {
+      "number": 13,
+      "lastDate": "2026-03-29",
+      "daysSince": 1
+    },
+    {
+      "number": 19,
+      "lastDate": "2026-03-29",
+      "daysSince": 1
+    },
+    {
+      "number": 21,
+      "lastDate": "2026-03-29",
+      "daysSince": 1
+    },
+    {
+      "number": 11,
+      "lastDate": "2026-03-29",
+      "daysSince": 1
+    },
+    {
+      "number": 23,
+      "lastDate": "2026-03-29",
+      "daysSince": 1
+    },
+    {
+      "number": 29,
+      "lastDate": "2026-03-29",
+      "daysSince": 1
+    },
+    {
+      "number": 12,
+      "lastDate": "2026-03-29",
+      "daysSince": 1
+    },
+    {
+      "number": 2,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 3,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 22,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 24,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 34,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 8,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 9,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 17,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 18,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    },
+    {
+      "number": 27,
+      "lastDate": "2026-03-30",
+      "daysSince": 0
+    }
+  ],
+  "totalRecords": 500
+}

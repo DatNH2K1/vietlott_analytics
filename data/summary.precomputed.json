@@ -1,0 +1,58 @@
+[
+  {
+    "productId": "power_655",
+    "name": "Power 6/55",
+    "totalDraws": 1325,
+    "startDate": "2017-08-01",
+    "endDate": "2026-03-28",
+    "totalRecords": 1325
+  },
+  {
+    "productId": "power_645",
+    "name": "Power 6/45",
+    "totalDraws": 1293,
+    "startDate": "2017-10-25",
+    "endDate": "2026-03-29",
+    "totalRecords": 1293
+  },
+  {
+    "productId": "power_535",
+    "name": "Power 5/35",
+    "totalDraws": 250,
+    "startDate": "2025-06-29",
+    "endDate": "2026-03-30",
+    "totalRecords": 500
+  },
+  {
+    "productId": "keno",
+    "name": "Keno",
+    "totalDraws": 501,
+    "startDate": "2022-12-04",
+    "endDate": "2026-03-31",
+    "totalRecords": 63263
+  },
+  {
+    "productId": "3d",
+    "name": "Max 3D",
+    "totalDraws": 1056,
+    "startDate": "2019-04-22",
+    "endDate": "2026-03-30",
+    "totalRecords": 1056
+  },
+  {
+    "productId": "3d_pro",
+    "name": "Max 3D Pro",
+    "totalDraws": 702,
+    "startDate": "2021-09-14",
+    "endDate": "2026-03-28",
+    "totalRecords": 702
+  },
+  {
+    "productId": "bingo18",
+    "name": "Bingo18",
+    "totalDraws": 475,
+    "startDate": "2024-12-03",
+    "endDate": "2026-03-31",
+    "totalRecords": 54866
+  }
+]
