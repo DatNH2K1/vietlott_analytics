@@ -21,7 +21,7 @@ export function useAllLotteryData() {
 
     if (summaryCache.data) return;
 
-    fetch('/data/summary.precomputed.json')
+    fetch(`${import.meta.env.BASE_URL}data/summary.precomputed.json`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to fetch summary');
         return res.json();

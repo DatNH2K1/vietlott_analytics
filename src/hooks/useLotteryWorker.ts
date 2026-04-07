@@ -41,7 +41,7 @@ export function useLotteryWorker(productId: string, freqDays?: number): WorkerRe
     setError(null);
 
     const controller = new AbortController();
-    const precomputedUrl = `/data/${productId}.precomputed.json`;
+    const precomputedUrl = `${import.meta.env.BASE_URL}data/${productId}.precomputed.json`;
 
     (async () => {
       try {
