@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T04:12:29.975Z",
+  "generatedAt": "2026-04-15T04:11:33.155Z",
   "productId": "bingo18",
   "overview": {
     "productId": "bingo18",
@@ -1882,65 +1882,65 @@
   "freq30": [
     {
       "number": 1,
-      "count": 1013,
-      "percentage": 16.27
+      "count": 1000,
+      "percentage": 16.24
     },
     {
       "number": 2,
-      "count": 997,
-      "percentage": 16.01
+      "count": 985,
+      "percentage": 16
     },
     {
       "number": 3,
-      "count": 1144,
-      "percentage": 18.37
+      "count": 1135,
+      "percentage": 18.44
     },
     {
       "number": 4,
-      "count": 992,
-      "percentage": 15.93
+      "count": 981,
+      "percentage": 15.94
     },
     {
       "number": 5,
-      "count": 1003,
-      "percentage": 16.1
+      "count": 989,
+      "percentage": 16.07
     },
     {
       "number": 6,
-      "count": 1079,
+      "count": 1066,
       "percentage": 17.32
     }
   ],
   "freq90": [
     {
       "number": 1,
-      "count": 1587,
-      "percentage": 16.47
+      "count": 1573,
+      "percentage": 16.45
     },
     {
       "number": 2,
-      "count": 1552,
-      "percentage": 16.11
+      "count": 1542,
+      "percentage": 16.13
     },
     {
       "number": 3,
-      "count": 1725,
-      "percentage": 17.91
+      "count": 1715,
+      "percentage": 17.94
     },
     {
       "number": 4,
-      "count": 1574,
-      "percentage": 16.34
+      "count": 1558,
+      "percentage": 16.3
     },
     {
       "number": 5,
-      "count": 1553,
-      "percentage": 16.12
+      "count": 1542,
+      "percentage": 16.13
     },
     {
       "number": 6,
-      "count": 1642,
-      "percentage": 17.05
+      "count": 1631,
+      "percentage": 17.06
     }
   ],
   "daysSinceData": [
