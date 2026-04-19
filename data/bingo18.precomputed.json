@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T03:50:45.635Z",
+  "generatedAt": "2026-04-19T04:17:26.478Z",
   "productId": "bingo18",
   "overview": {
     "productId": "bingo18",
@@ -1882,33 +1882,33 @@
   "freq30": [
     {
       "number": 1,
-      "count": 979,
-      "percentage": 16.28
+      "count": 968,
+      "percentage": 16.3
     },
     {
       "number": 2,
-      "count": 961,
+      "count": 949,
       "percentage": 15.98
     },
     {
       "number": 3,
-      "count": 1113,
-      "percentage": 18.51
+      "count": 1101,
+      "percentage": 18.54
     },
     {
       "number": 4,
-      "count": 951,
-      "percentage": 15.82
+      "count": 942,
+      "percentage": 15.86
     },
     {
       "number": 5,
-      "count": 969,
-      "percentage": 16.12
+      "count": 955,
+      "percentage": 16.08
     },
     {
       "number": 6,
-      "count": 1039,
-      "percentage": 17.28
+      "count": 1025,
+      "percentage": 17.26
     }
   ],
   "freq90": [
