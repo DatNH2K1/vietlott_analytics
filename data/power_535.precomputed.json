@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T04:20:17.965Z",
+  "generatedAt": "2026-04-25T03:54:51.940Z",
   "productId": "power_535",
   "overview": {
     "productId": "power_535",
@@ -224,365 +224,365 @@
   "freq30": [
     {
       "number": 1,
-      "count": 7,
-      "percentage": 3.8
+      "count": 6,
+      "percentage": 3.49
     },
     {
       "number": 2,
       "count": 4,
-      "percentage": 2.17
+      "percentage": 2.33
     },
     {
       "number": 3,
       "count": 9,
-      "percentage": 4.89
+      "percentage": 5.23
     },
     {
       "number": 4,
-      "count": 6,
-      "percentage": 3.26
+      "count": 5,
+      "percentage": 2.91
     },
     {
       "number": 5,
       "count": 2,
-      "percentage": 1.09
+      "percentage": 1.16
     },
     {
       "number": 6,
       "count": 4,
-      "percentage": 2.17
+      "percentage": 2.33
     },
     {
       "number": 7,
-      "count": 6,
-      "percentage": 3.26
+      "count": 5,
+      "percentage": 2.91
     },
     {
       "number": 8,
-      "count": 6,
-      "percentage": 3.26
+      "count": 5,
+      "percentage": 2.91
     },
     {
       "number": 9,
       "count": 5,
-      "percentage": 2.72
+      "percentage": 2.91
     },
     {
       "number": 10,
       "count": 4,
-      "percentage": 2.17
+      "percentage": 2.33
     },
     {
       "number": 11,
       "count": 5,
-      "percentage": 2.72
+      "percentage": 2.91
     },
     {
       "number": 12,
-      "count": 5,
-      "percentage": 2.72
+      "count": 4,
+      "percentage": 2.33
     },
     {
       "number": 13,
-      "count": 6,
-      "percentage": 3.26
+      "count": 5,
+      "percentage": 2.91
     },
     {
       "number": 14,
-      "count": 5,
-      "percentage": 2.72
+      "count": 4,
+      "percentage": 2.33
     },
     {
       "number": 15,
       "count": 5,
-      "percentage": 2.72
+      "percentage": 2.91
     },
     {
       "number": 16,
       "count": 3,
-      "percentage": 1.63
+      "percentage": 1.74
     },
     {
       "number": 17,
       "count": 3,
-      "percentage": 1.63
+      "percentage": 1.74
     },
     {
       "number": 18,
       "count": 9,
-      "percentage": 4.89
+      "percentage": 5.23
     },
     {
       "number": 19,
-      "count": 5,
-      "percentage": 2.72
+      "count": 4,
+      "percentage": 2.33
     },
     {
       "number": 20,
       "count": 3,
-      "percentage": 1.63
+      "percentage": 1.74
     },
     {
       "number": 21,
       "count": 4,
-      "percentage": 2.17
+      "percentage": 2.33
     },
     {
       "number": 22,
       "count": 5,
-      "percentage": 2.72
+      "percentage": 2.91
     },
     {
       "number": 23,
       "count": 4,
-      "percentage": 2.17
+      "percentage": 2.33
     },
     {
       "number": 24,
       "count": 4,
-      "percentage": 2.17
+      "percentage": 2.33
     },
     {
       "number": 25,
       "count": 6,
-      "percentage": 3.26
+      "percentage": 3.49
     },
     {
       "number": 26,
-      "count": 7,
-      "percentage": 3.8
+      "count": 5,
+      "percentage": 2.91
     },
     {
       "number": 27,
       "count": 4,
-      "percentage": 2.17
+      "percentage": 2.33
     },
     {
       "number": 28,
       "count": 6,
-      "percentage": 3.26
+      "percentage": 3.49
     },
     {
       "number": 29,
-      "count": 5,
-      "percentage": 2.72
+      "count": 4,
+      "percentage": 2.33
     },
     {
       "number": 30,
       "count": 5,
-      "percentage": 2.72
+      "percentage": 2.91
     },
     {
       "number": 31,
       "count": 3,
-      "percentage": 1.63
+      "percentage": 1.74
     },
     {
       "number": 32,
-      "count": 4,
-      "percentage": 2.17
+      "count": 3,
+      "percentage": 1.74
     },
     {
       "number": 33,
       "count": 2,
-      "percentage": 1.09
+      "percentage": 1.16
     },
     {
       "number": 34,
       "count": 5,
-      "percentage": 2.72
+      "percentage": 2.91
     },
     {
       "number": 35,
       "count": 2,
-      "percentage": 1.09
+      "percentage": 1.16
     },
     {
       "number": null,
       "count": 16,
-      "percentage": 8.7
+      "percentage": 9.3
     }
   ],
   "freq90": [
     {
       "number": 1,
       "count": 32,
-      "percentage": 3.53
+      "percentage": 3.58
     },
     {
       "number": 2,
-      "count": 30,
-      "percentage": 3.31
+      "count": 29,
+      "percentage": 3.24
     },
     {
       "number": 3,
       "count": 43,
-      "percentage": 4.75
+      "percentage": 4.81
     },
     {
       "number": 4,
       "count": 29,
-      "percentage": 3.2
+      "percentage": 3.24
     },
     {
       "number": 5,
       "count": 29,
-      "percentage": 3.2
+      "percentage": 3.24
     },
     {
       "number": 6,
-      "count": 29,
-      "percentage": 3.2
+      "count": 28,
+      "percentage": 3.13
     },
     {
       "number": 7,
       "count": 28,
-      "percentage": 3.09
+      "percentage": 3.13
     },
     {
       "number": 8,
       "count": 28,
-      "percentage": 3.09
+      "percentage": 3.13
     },
     {
       "number": 9,
       "count": 38,
-      "percentage": 4.19
+      "percentage": 4.25
     },
     {
       "number": 10,
-      "count": 32,
-      "percentage": 3.53
+      "count": 31,
+      "percentage": 3.47
     },
     {
       "number": 11,
       "count": 37,
-      "percentage": 4.08
+      "percentage": 4.14
     },
     {
       "number": 12,
       "count": 27,
-      "percentage": 2.98
+      "percentage": 3.02
     },
     {
       "number": 13,
-      "count": 24,
-      "percentage": 2.65
+      "count": 23,
+      "percentage": 2.57
     },
     {
       "number": 14,
       "count": 30,
-      "percentage": 3.31
+      "percentage": 3.36
     },
     {
       "number": 15,
-      "count": 24,
-      "percentage": 2.65
+      "count": 23,
+      "percentage": 2.57
     },
     {
       "number": 16,
       "count": 21,
-      "percentage": 2.32
+      "percentage": 2.35
     },
     {
       "number": 17,
       "count": 21,
-      "percentage": 2.32
+      "percentage": 2.35
     },
     {
       "number": 18,
       "count": 28,
-      "percentage": 3.09
+      "percentage": 3.13
     },
     {
       "number": 19,
       "count": 27,
-      "percentage": 2.98
+      "percentage": 3.02
     },
     {
       "number": 20,
       "count": 18,
-      "percentage": 1.99
+      "percentage": 2.01
     },
     {
       "number": 21,
       "count": 19,
-      "percentage": 2.1
+      "percentage": 2.13
     },
     {
       "number": 22,
-      "count": 24,
-      "percentage": 2.65
+      "count": 23,
+      "percentage": 2.57
     },
     {
       "number": 23,
       "count": 22,
-      "percentage": 2.43
+      "percentage": 2.46
     },
     {
       "number": 24,
       "count": 17,
-      "percentage": 1.88
+      "percentage": 1.9
     },
     {
       "number": 25,
-      "count": 19,
-      "percentage": 2.1
+      "count": 18,
+      "percentage": 2.01
     },
     {
       "number": 26,
-      "count": 25,
-      "percentage": 2.76
+      "count": 24,
+      "percentage": 2.68
     },
     {
       "number": 27,
-      "count": 24,
-      "percentage": 2.65
+      "count": 23,
+      "percentage": 2.57
     },
     {
       "number": 28,
-      "count": 19,
-      "percentage": 2.1
+      "count": 18,
+      "percentage": 2.01
     },
     {
       "number": 29,
       "count": 29,
-      "percentage": 3.2
+      "percentage": 3.24
     },
     {
       "number": 30,
       "count": 24,
-      "percentage": 2.65
+      "percentage": 2.68
     },
     {
       "number": 31,
-      "count": 18,
-      "percentage": 1.99
+      "count": 17,
+      "percentage": 1.9
     },
     {
       "number": 32,
       "count": 25,
-      "percentage": 2.76
+      "percentage": 2.8
     },
     {
       "number": 33,
       "count": 13,
-      "percentage": 1.43
+      "percentage": 1.45
     },
     {
       "number": 34,
-      "count": 15,
-      "percentage": 1.66
+      "count": 14,
+      "percentage": 1.57
     },
     {
       "number": 35,
       "count": 20,
-      "percentage": 2.21
+      "percentage": 2.24
     },
     {
       "number": null,
       "count": 18,
-      "percentage": 1.99
+      "percentage": 2.01
     }
   ],
   "daysSinceData": [
